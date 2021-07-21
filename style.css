@@ -329,8 +329,8 @@ section .title::after{
 .skills-content .right .python::before{
     width: 70%;
 }
-.skills-content .right .c::before{
-    width: 50%;
+.skills-content .right .django::before{
+    width: 70%;
 }
 
 /* contact section styling */
