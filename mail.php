@@ -3,11 +3,10 @@
 
 $name = $_POST['name'];
 $email= $_POST['email'];
-$user_subject = $_POST['subject'];
 $message= $_POST['message'];
 $to = "animeshkansal01@gmail.com";
 
-$subject = "Mail from your website "
+$subject = "Mail from your website ";
 
 
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n subject = " . $user_subject . "\r\n Message =" . $message;
