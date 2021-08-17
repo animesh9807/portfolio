@@ -17,5 +17,5 @@ if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
 //redirect
-header("Location:/portfolio");
+header("Location:https://animesh9807.github.io/portfolio");
 ?>
