@@ -3,15 +3,19 @@
 
 $name = $_POST['name'];
 $email= $_POST['email'];
-$subject = $_POST['subject'];
+$user_subject = $_POST['subject'];
 $message= $_POST['message'];
-$to = "youremail@mail.com";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
-"CC: somebodyelse@example.com";
+$to = "animeshkansal01@gmail.com";
+
+$subject = "Mail from your website "
+
+
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n subject = " . $user_subject . "\r\n Message =" . $message;
+$headers = "From: animesh9807.github.io/portfolio" . "\r\n" .
+"CC: ";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
 //redirect
-header("Location:index.html");
+header("Location:#");
 ?>
